@@ -1,67 +1,42 @@
 {
   "courses": [
-    {
+     {
       "id": "1",
-      "title": "Python & Django REST API Bootcamp – Build A Python Web API",
-      "category": "Development",
-      "pic": "https://img-c.udemycdn.com/course/480x270/3769792_3990_5.jpg",
-      "coupon": "https://www.udemy.com/course/the-complete-python-django-rest-api-development-bootcamp/?couponCode=EE34AA06610150B2950B",
-      "price": "$84.99",
-      "description": "Do you want to build a complete Python RESTful API that is not only secure and stable but also deployed to a production-ready environment? If Yes! Then this is the course for you!",
-      "language": "English",
-      "rating": 4.6,
-      "duration": 15
-    },
-    {
-      "id": "2",
-      "title": "[NEW] Python PCAP-31-03 Certification – Tests & Insights",
-      "category": "IT & Software",
-      "pic": "https://img-c.udemycdn.com/course/480x270/6280705_b1ff_3.jpg",
-      "coupon": "https://www.udemy.com/course/python-pcap-31-03-certification-practice-exam-preparation/?couponCode=AA12B1022FAFC980FE2D",
-      "price": "$19.99",
-      "description": "Prepare for your Python Certification PCAP-31-03 (2024) with 6 Practice Tests - Detailed Explanations.",
+      "title": "CSS Flexbox & Grid Masterclass - Responsive Web Design",
+      "category": "Web Development",
+      "pic": "https://img-c.udemycdn.com/course/750x422/2504092_2fdf_4.jpg",
+      "coupon": "https://www.udemy.com/course/css-flexbox-grid/?couponCode=FLEXGRID20",
+      "price": "$39.99",
+      "description": "Master CSS Flexbox and Grid to create fully responsive layouts.",
       "language": "English",
       "rating": 4.8,
       "duration": 8
-    },
-    {
-      "id": "3",
-      "title": "PYTHON INTERVIEW PREPARATION",
-      "category": "IT & Software",
-      "pic": "https://img-c.udemycdn.com/course/480x270/6060673_b355.jpg",
-      "coupon": "https://www.udemy.com/course/python-interview-prep/?couponCode=7ECA8DA5B25ED958EE32",
-      "price": "$799.00",
-      "description": "Prepare for Python Interviews With A Wide Variety Of In-Depth Practice Questions.",
+    }, {
+      "id": "2",
+      "title": "Advanced CSS and Sass - Take Your CSS to the Next Level",
+      "category": "Web Development",
+      "pic": "https://img-c.udemycdn.com/course/750x422/1187016_51b3_3.jpg",
+      "coupon": "https://www.udemy.com/course/advanced-css-sass/?couponCode=ADVANCEDCSS",
+      "price": "$49.99",
+      "description": "Learn advanced CSS techniques and animations with Sass.",
       "language": "English",
       "rating": 4.7,
       "duration": 12
     },
     {
+      "id": "3",
+      "title": "HTML5 & CSS3 Modern Web Development Course",
+      "category": "Web Development",
+      "pic": "https://img-c.udemycdn.com/course/750x422/1561458_7f3b_2.jpg",
+      "coupon": "https://www.udemy.com/course/html5-css3-modern-web-development/?couponCode=MODERNHTML",
+      "price": "$34.99",
+      "description": "Build modern, responsive websites with HTML5 and CSS3.",
+      "language": "English",
+      "rating": 4.6,
+      "duration": 10
+    },
+    {
       "id": "4",
-      "title": "Mastering Influencer Marketing: Strategies for Success",
-      "category": "Marketing",
-      "pic": "https://img-c.udemycdn.com/course/750x422/6414649_acc5_2.jpg",
-      "coupon": "https://www.udemy.com/course/mastering-influencer-marketing-strategies-for-success-m/?couponCode=312EC76246D510353A15",
-      "price": "$9.99",
-      "description": "In the rapidly evolving digital landscape, influencer marketing has become a powerful tool for brands looking to connect with their audience authentically and effectively.",
-      "language": "English",
-      "rating": 3.8,
-      "duration": 1
-    },
-    {
-      "id": "5",
-      "title": "PHP Laravel 2024: Build Amazing Restaurant Management System",
-      "category": "Development",
-      "pic": "https://img-c.udemycdn.com/course/750x422/5436836_736b_3.jpg",
-      "coupon": "https://www.udemy.com/course/php-laravel-2023-build-amazing-restaurant-management-system/?couponCode=LARAVELRESTAURANT56",
-      "price": "$9.99",
-      "description": "Learn PHP Laravel and build a complete restaurant management system from scratch.",
-      "language": "English",
-      "rating": 4.5,
-      "duration": 9
-    },
-    {
-      "id": "6",
       "title": "Build ML Projects on AWS Master SageMaker",
       "category": "Data Science",
       "pic": "https://img-c.udemycdn.com/course/750x422/5605600_4158_6.jpg",
@@ -73,7 +48,79 @@
       "duration": 6
     },
     {
-      "id": 7,
+      "id": "5",
+      "title": "Python & Django REST API Bootcamp – Build A Python Web API",
+      "category": "Development",
+      "pic": "https://i.ytimg.com/vi/-LVXBuYzi00/maxresdefault.jpg",
+      "coupon": "https://www.udemy.com/course/the-complete-python-django-rest-api-development-bootcamp/?couponCode=EE34AA06610150B2950B",
+      "price": "$84.99",
+      "description": "Do you want to build a complete Python RESTful API that is not only secure and stable but also deployed to a production-ready environment? If Yes! Then this is the course for you!",
+      "language": "English",
+      "rating": 4.6,
+      "duration": 15
+    },
+    {
+      "id": "6",
+      "title": "[NEW] Python PCAP-31-03 Certification – Tests & Insights",
+      "category": "IT & Software",
+      "pic": "https://img-c.udemycdn.com/course/480x270/6280705_b1ff_3.jpg",
+      "coupon": "https://www.udemy.com/course/python-pcap-31-03-certification-practice-exam-preparation/?couponCode=AA12B1022FAFC980FE2D",
+      "price": "$19.99",
+      "description": "Prepare for your Python Certification PCAP-31-03 (2024) with 6 Practice Tests - Detailed Explanations.",
+      "language": "English",
+      "rating": 4.8,
+      "duration": 8
+    },
+    {
+      "id": "7",
+      "title": "PYTHON INTERVIEW PREPARATION",
+      "category": "IT & Software",
+      "pic": "https://img-c.udemycdn.com/course/480x270/6060673_b355.jpg",
+      "coupon": "https://www.udemy.com/course/python-interview-prep/?couponCode=7ECA8DA5B25ED958EE32",
+      "price": "$799.00",
+      "description": "Prepare for Python Interviews With A Wide Variety Of In-Depth Practice Questions.",
+      "language": "English",
+      "rating": 4.7,
+      "duration": 12
+    },
+    {
+      "id": "8",
+      "title": "Mastering Influencer Marketing: Strategies for Success",
+      "category": "Marketing",
+      "pic": "https://img-c.udemycdn.com/course/750x422/6414649_acc5_2.jpg",
+      "coupon": "https://www.udemy.com/course/mastering-influencer-marketing-strategies-for-success-m/?couponCode=312EC76246D510353A15",
+      "price": "$9.99",
+      "description": "In the rapidly evolving digital landscape, influencer marketing has become a powerful tool for brands looking to connect with their audience authentically and effectively.",
+      "language": "English",
+      "rating": 3.8,
+      "duration": 1
+    },
+    {
+      "id": "9",
+      "title": "PHP Laravel 2024: Build Amazing Restaurant Management System",
+      "category": "Development",
+      "pic": "https://img-c.udemycdn.com/course/750x422/5436836_736b_3.jpg",
+      "coupon": "https://www.udemy.com/course/php-laravel-2023-build-amazing-restaurant-management-system/?couponCode=LARAVELRESTAURANT56",
+      "price": "$9.99",
+      "description": "Learn PHP Laravel and build a complete restaurant management system from scratch.",
+      "language": "English",
+      "rating": 4.5,
+      "duration": 9
+    },
+    {
+      "id": "10",
+      "title": "Build ML Projects on AWS Master SageMaker",
+      "category": "Data Science",
+      "pic": "https://img-c.udemycdn.com/course/750x422/5605600_4158_6.jpg",
+      "coupon": "https://www.udemy.com/course/mastering-aws-sage-maker-from-fundamentals-to-advance/?couponCode=FESTIVALYEAR",
+      "price": "$9.99",
+      "description": "Unlock the full potential of AWS SageMaker and become a machine learning expert.",
+      "language": "English",
+      "rating": 4.2,
+      "duration": 6
+    },
+    {
+      "id": "11",
       "title": "English Fluency Masterclass",
       "category": "Language Learning",
       "pic": "english-fluency.jpg",
@@ -85,7 +132,7 @@
       "duration": "10 hours"
     },
     {
-      "id": 8,
+      "id": "12",
       "title": "Python for Beginners",
       "category": "Programming",
       "pic": "python-beginners.jpg",
@@ -97,7 +144,7 @@
       "duration": "15 hours"
     },
     {
-      "id": 9,
+      "id": "13",
       "title": "Digital Marketing Essentials",
       "category": "Marketing",
       "pic": "digital-marketing.jpg",
@@ -109,7 +156,7 @@
       "duration": "12 hours"
     },
     {
-      "id": 10,
+      "id": "14",
       "title": "Graphic Design Fundamentals",
       "category": "Design",
       "pic": "graphic-design.jpg",
@@ -121,7 +168,7 @@
       "duration": "8 hours"
     },
     {
-      "id": 11,
+      "id": "15",
       "title": "Data Science with Python",
       "category": "Data Science",
       "pic": "data-science.jpg",
@@ -133,7 +180,7 @@
       "duration": "20 hours"
     },
     {
-      "id": 12,
+      "id": "16",
       "title": "Web Development Bootcamp",
       "category": "Web Development",
       "pic": "web-development.jpg",
