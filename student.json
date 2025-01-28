@@ -1,7 +1,19 @@
 {
   "courses": [
-     {
+    {
       "id": "1",
+      "title": "HTML5 & CSS3 Modern Web Development Course",
+      "category": "Web Development",
+      "pic": "https://img-c.udemycdn.com/course/750x422/1561458_7f3b_2.jpg",
+      "coupon": "https://www.udemy.com/course/html5-css3-modern-web-development/?couponCode=MODERNHTML",
+      "price": "$34.99",
+      "description": "Build modern, responsive websites with HTML5 and CSS3.",
+      "language": "English",
+      "rating": 4.6,
+      "duration": 10
+    },
+     {
+      "id": "2",
       "title": "CSS Flexbox & Grid Masterclass - Responsive Web Design",
       "category": "Web Development",
       "pic": "https://img-c.udemycdn.com/course/750x422/2504092_2fdf_4.jpg",
@@ -11,8 +23,9 @@
       "language": "English",
       "rating": 4.8,
       "duration": 8
-    }, {
-      "id": "2",
+    }, 
+    {
+      "id": "3",
       "title": "Advanced CSS and Sass - Take Your CSS to the Next Level",
       "category": "Web Development",
       "pic": "https://img-c.udemycdn.com/course/750x422/1187016_51b3_3.jpg",
@@ -24,19 +37,115 @@
       "duration": 12
     },
     {
-      "id": "3",
-      "title": "HTML5 & CSS3 Modern Web Development Course",
-      "category": "Web Development",
-      "pic": "https://img-c.udemycdn.com/course/750x422/1561458_7f3b_2.jpg",
-      "coupon": "https://www.udemy.com/course/html5-css3-modern-web-development/?couponCode=MODERNHTML",
-      "price": "$34.99",
-      "description": "Build modern, responsive websites with HTML5 and CSS3.",
+      "id": "4",
+      "title": "JavaScript for Beginners: Learn JavaScript from Scratch",
+      "category": "Programming",
+      "pic": "https://img-c.udemycdn.com/course/750x422/1508960_10b7_2.jpg",
+      "coupon": "https://www.udemy.com/course/javascript-for-beginners/?couponCode=JSBEGINNER50",
+      "price": "$29.99",
+      "description": "Learn JavaScript from scratch with hands-on exercises and real-world examples.",
       "language": "English",
-      "rating": 4.6,
-      "duration": 10
+      "rating": 4.7,
+      "duration": "12 hours"
     },
     {
-      "id": "4",
+      "id": "5",
+      "title": "Modern JavaScript (ES6+) From The Beginning",
+      "category": "Programming",
+      "pic": "https://img-c.udemycdn.com/course/750x422/2508942_11a8_2.jpg",
+      "coupon": "https://www.udemy.com/course/modern-javascript-es6/?couponCode=MODERNJS40",
+      "price": "$39.99",
+      "description": "Master modern JavaScript (ES6+) features, including arrow functions, async/await, and modules.",
+      "language": "English",
+      "rating": 4.8,
+      "duration": "15 hours"
+    },
+    {
+      "id": "6",
+      "title": "JavaScript: The Complete Guide (Beginner + Advanced)",
+      "category": "Programming",
+      "pic": "https://img-c.udemycdn.com/course/750x422/2508954_a1b8_4.jpg",
+      "coupon": "https://www.udemy.com/course/javascript-complete-guide/?couponCode=JSCOMPLETE30",
+      "price": "$49.99",
+      "description": "A comprehensive JavaScript course covering everything from basic syntax to advanced topics.",
+      "language": "English",
+      "rating": 4.9,
+      "duration": "20 hours"
+    },
+    {
+      "id": "7",
+      "title": "Advanced JavaScript Concepts & Best Practices",
+      "category": "Programming",
+      "pic": "https://img-c.udemycdn.com/course/750x422/2508960_c3d7_2.jpg",
+      "coupon": "https://www.udemy.com/course/advanced-javascript-concepts/?couponCode=ADVJS25",
+      "price": "$59.99",
+      "description": "Master closures, prototypal inheritance, async programming, and design patterns in JavaScript.",
+      "language": "English",
+      "rating": 4.9,
+      "duration": "25 hours"
+    },
+    {
+      "id": "8",
+      "title": "Web Development Bootcamp",
+      "category": "Web Development",
+      "pic": "web-development.jpg",
+      "coupon": "WEBDEV25",
+      "price": 69.99,
+      "description": "Build modern websites with HTML, CSS, JavaScript, and React.",
+      "language": "English",
+      "rating": 4.7,
+      "duration": "25 hours"
+    },  {
+      "id": "9",
+      "title": "Java Programming for Beginners",
+      "category": "Programming",
+      "pic": "https://img-c.udemycdn.com/course/750x422/854628_0934_3.jpg",
+      "coupon": "https://www.udemy.com/course/java-programming-for-beginners/?couponCode=JAVABEGIN50",
+      "price": "$39.99",
+      "description": "Learn Java from scratch with hands-on coding exercises and build real-world applications.",
+      "language": "English",
+      "rating": 4.7,
+      "duration": "12 hours"
+    },
+    {
+      "id": "10",
+      "title": "Object-Oriented Programming with Java",
+      "category": "Programming",
+      "pic": "https://img-c.udemycdn.com/course/750x422/1477464_f8e7_4.jpg",
+      "coupon": "https://www.udemy.com/course/object-oriented-programming-java/?couponCode=OOPJAVA30",
+      "price": "$49.99",
+      "description": "Master object-oriented programming (OOP) concepts with Java and build scalable applications.",
+      "language": "English",
+      "rating": 4.8,
+      "duration": "15 hours"
+    },
+    {
+      "id": "11",
+      "title": "Java Data Structures & Algorithms",
+      "category": "Computer Science",
+      "pic": "https://img-c.udemycdn.com/course/750x422/903744_8eb2_2.jpg",
+      "coupon": "https://www.udemy.com/course/java-data-structures-algorithms/?couponCode=DSAJAVA40",
+      "price": "$59.99",
+      "description": "Learn essential data structures and algorithms in Java to ace coding interviews.",
+      "language": "English",
+      "rating": 4.9,
+      "duration": "20 hours"
+    },
+    {
+      "id": "12",
+      "title": "Spring Boot & Microservices with Java",
+      "category": "Web Development",
+      "pic": "https://img-c.udemycdn.com/course/750x422/1933326_61b3_3.jpg",
+      "coupon": "https://www.udemy.com/course/spring-boot-microservices-java/?couponCode=SPRINGJAVA50",
+      "price": "$69.99",
+      "description": "Build scalable microservices using Java, Spring Boot, and RESTful APIs.",
+      "language": "English",
+      "rating": 4.8,
+      "duration": "25 hours"
+    },
+    
+    {
+      "id": "13",
       "title": "Build ML Projects on AWS Master SageMaker",
       "category": "Data Science",
       "pic": "https://img-c.udemycdn.com/course/750x422/5605600_4158_6.jpg",
@@ -48,7 +157,7 @@
       "duration": 6
     },
     {
-      "id": "5",
+      "id": "14",
       "title": "Python & Django REST API Bootcamp – Build A Python Web API",
       "category": "Development",
       "pic": "https://i.ytimg.com/vi/-LVXBuYzi00/maxresdefault.jpg",
@@ -59,8 +168,9 @@
       "rating": 4.6,
       "duration": 15
     },
+    
     {
-      "id": "6",
+      "id": "15",
       "title": "[NEW] Python PCAP-31-03 Certification – Tests & Insights",
       "category": "IT & Software",
       "pic": "https://img-c.udemycdn.com/course/480x270/6280705_b1ff_3.jpg",
@@ -72,7 +182,7 @@
       "duration": 8
     },
     {
-      "id": "7",
+      "id": "16",
       "title": "PYTHON INTERVIEW PREPARATION",
       "category": "IT & Software",
       "pic": "https://img-c.udemycdn.com/course/480x270/6060673_b355.jpg",
@@ -84,7 +194,7 @@
       "duration": 12
     },
     {
-      "id": "8",
+      "id": "17",
       "title": "Mastering Influencer Marketing: Strategies for Success",
       "category": "Marketing",
       "pic": "https://img-c.udemycdn.com/course/750x422/6414649_acc5_2.jpg",
@@ -96,7 +206,7 @@
       "duration": 1
     },
     {
-      "id": "9",
+      "id": "18",
       "title": "PHP Laravel 2024: Build Amazing Restaurant Management System",
       "category": "Development",
       "pic": "https://img-c.udemycdn.com/course/750x422/5436836_736b_3.jpg",
@@ -108,7 +218,7 @@
       "duration": 9
     },
     {
-      "id": "10",
+      "id": "19",
       "title": "Build ML Projects on AWS Master SageMaker",
       "category": "Data Science",
       "pic": "https://img-c.udemycdn.com/course/750x422/5605600_4158_6.jpg",
@@ -120,7 +230,7 @@
       "duration": 6
     },
     {
-      "id": "11",
+      "id": "20",
       "title": "English Fluency Masterclass",
       "category": "Language Learning",
       "pic": "english-fluency.jpg",
@@ -132,7 +242,7 @@
       "duration": "10 hours"
     },
     {
-      "id": "12",
+      "id": "21",
       "title": "Python for Beginners",
       "category": "Programming",
       "pic": "python-beginners.jpg",
@@ -144,7 +254,7 @@
       "duration": "15 hours"
     },
     {
-      "id": "13",
+      "id": "22",
       "title": "Digital Marketing Essentials",
       "category": "Marketing",
       "pic": "digital-marketing.jpg",
@@ -156,7 +266,7 @@
       "duration": "12 hours"
     },
     {
-      "id": "14",
+      "id": "23",
       "title": "Graphic Design Fundamentals",
       "category": "Design",
       "pic": "graphic-design.jpg",
@@ -168,7 +278,7 @@
       "duration": "8 hours"
     },
     {
-      "id": "15",
+      "id": "24",
       "title": "Data Science with Python",
       "category": "Data Science",
       "pic": "data-science.jpg",
@@ -178,18 +288,7 @@
       "language": "English",
       "rating": 4.8,
       "duration": "20 hours"
-    },
-    {
-      "id": "16",
-      "title": "Web Development Bootcamp",
-      "category": "Web Development",
-      "pic": "web-development.jpg",
-      "coupon": "WEBDEV25",
-      "price": 69.99,
-      "description": "Build modern websites with HTML, CSS, JavaScript, and React.",
-      "language": "English",
-      "rating": 4.7,
-      "duration": "25 hours"
     }
+    
   ]
 }
