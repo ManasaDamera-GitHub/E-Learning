@@ -1,9 +1,9 @@
 {
     "courses": [
         {
-            "name": "Python & Django REST API Bootcamp – Build A Python Web API",
+            "title": "Python & Django REST API Bootcamp – Build A Python Web API",
             "category": "Development",
-            "image": "https://img-c.udemycdn.com/course/480x270/3769792_3990_5.jpg",
+            "pic": "https://img-c.udemycdn.com/course/480x270/3769792_3990_5.jpg",
             "actual_price_usd": 84.99,
             "sale_price_usd": 0.0,
             "sale_end": "2025-01-24T10:51:00",
@@ -12,9 +12,9 @@
             "clean_url": "https://www.udemy.com/course/the-complete-python-django-rest-api-development-bootcamp/"
         },
         {
-            "name": "[NEW] Python PCAP-31-03 Certification – Tests & Insights",
+            "title": "[NEW] Python PCAP-31-03 Certification – Tests & Insights",
             "category": "IT & Software",
-            "image": "https://img-c.udemycdn.com/course/480x270/6280705_b1ff_3.jpg",
+            "pic": "https://img-c.udemycdn.com/course/480x270/6280705_b1ff_3.jpg",
             "actual_price_usd": 19.99,
             "sale_price_usd": 0.0,
             "sale_end": "2025-01-26T18:07:00",
@@ -23,9 +23,9 @@
             "clean_url": "https://www.udemy.com/course/python-pcap-31-03-certification-practice-exam-preparation/"
         },
         {
-            "name": "PYTHON INTERVIEW PREPARATION",
+            "title": "PYTHON INTERVIEW PREPARATION",
             "category": "IT & Software",
-            "image": "https://img-c.udemycdn.com/course/480x270/6060673_b355.jpg",
+            "pic": "https://img-c.udemycdn.com/course/480x270/6060673_b355.jpg",
             "actual_price_usd": 799000.0,
             "sale_price_usd": 0.0,
             "sale_end": "2025-01-22T20:00:00",
