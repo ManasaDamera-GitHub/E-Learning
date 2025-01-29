@@ -1,0 +1,102 @@
+/* Global Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(120deg, #f5f7fa, #c3cfe2);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Search Bar */
+.search-container {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+#searchBar {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 2px solid #007bff;
+    border-radius: 25px;
+    outline: none;
+    transition: 0.3s;
+}
+
+#searchBar:focus {
+    border-color: #ff6b6b;
+    box-shadow: 0 0 10px rgba(255, 107, 107, 0.5);
+}
+
+/* Grid Layout for Courses */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* Course Cards (div2) */
+.course-card {
+    border: 2px solid #007bff;
+    /* Blue border */
+    border-radius: 12px;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0px 5px 15px rgba(0, 123, 255, 0.2);
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 300px;
+    margin: auto;
+}
+
+/* Hover Effect */
+.course-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 10px 25px rgba(1, 6, 10, 0.3);
+}
+
+/* Course Images */
+.course-card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Course Title */
+.course-card p strong {
+    font-size: 20px;
+    color: #007bff;
+}
+
+/* Description */
+.course-card p {
+    font-size: 16px;
+    color: #444;
+    text-align: center;
+}
+
+/* Price Styling */
+.course-card .price {
+    font-weight: bold;
+    font-size: 18px;
+    color: #ff6b6b;
+}
+
+/* Category Tag */
+.category {
+    background: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-top: 10px;
+}

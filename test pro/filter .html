@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <input type="text" id="searchBar" placeholder="Search by name...">
+    <ul id="result"></ul>
+    <div id="container" class="grid-container">
+        <div class="div2"></div>
+    </div>
+    <!-- <script src="./index.js"></script> -->
+</body>
+
+</html>
+
+
+<script>
+    const searchBar = document.getElementById('searchBar');
+    const resultList = document.getElementById('result');
+    const container = document.getElementById("container");
+
+    async function fetchData() {
+        let response = await fetch("https://large-necessary-quesadilla.glitch.me/courses");
+        let data = await response.json();
+        localStorage.setItem("data", JSON.stringify(data));
+        console.log(data);
+        displayData(data); // Display all data initially
+    }
+
+    // Function to display data
+    function displayData(data) {
+
+        container.innerHTML = ""; // Clear previous results
+
+        if (data.length === 0) {
+            container.innerHTML = "<p>No data available</p>";
+        } else {
+
+            data.forEach(obj => {
+                let div2 = document.createElement("div");
+                div2.classList.add("course-card");
+                let item = document.createElement("div");
+                // item.classList.add(""); 
+                item.innerHTML = `
+                <img src="${obj.pic}" alt="${obj.title}" >
+                <p><strong>${obj.title}</strong></p>
+                <p>${obj.description}</p>
+                <p>Price: ${obj.price}</p>
+                <p>Category: ${obj.category}</p>
+            `;
+                div2.appendChild(item);
+                container.appendChild(div2)
+            });
+        }
+    }
+
+    // Event listener for search bar
+    searchBar.addEventListener("keyup", function () {
+        let query = searchBar.value.toLowerCase();
+        let data = JSON.parse(localStorage.getItem("data")) || [];
+
+        let filteredData = data.filter(course =>
+            course.title.toLowerCase().includes(query) ||
+            course.description.toLowerCase().includes(query)
+        );
+
+        displayData(filteredData);
+    });
+
+    fetchData();
+
+</script>
