@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .course {
+            /* width: 100%; */
+            text-align: center;
+            padding: 20px;
+        }
+
+        #cor1 {
+            width: 100%;
+            padding: 20px;
+            border: 2px solid transparent;
+            transition: all 0.3s ease-in-out;
+            text-align: center;
+            margin: 20px auto;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        #cor1:hover {
+            border: 2px solid #007BFF;
+            /* Change the outline color */
+            box-shadow: 4px 4px 15px rgba(0, 123, 255, 0.3);
+        }
+
+        #cor1 img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        #cor1 h3 {
+            margin: 10px 0;
+            color: #333;
+        }
+
+        #cor1 p {
+            color: #666;
+            font-size: 14px;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+
+        #cor1 p:last-child {
+            font-weight: bold;
+            color: #007BFF;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="course">
+        <div style="display: flex;">
+            <div style="display: flex; flex-direction: column;">
+                <h3>Courses</h3>
+                <h1>Comprehensive Course for Every Learner</h1>
+            </div>
+            <div>
+                <p>Our courses are designed to cater to all skill levels, providing in-depth knowledge and practical
+                    learning
+                    experiences. Whether you're a beginner or an expert, you'll find the right course to enhance your
+                    skills
+                    and
+                    achieve your goals.</p>
+                <nav><a href="#cont1" class="get">DISCOVER MORE</a></nav>
+            </div>
+        </div>
+
+        <div style="display: flex; gap: 20px;">
+            <div id="cor1">
+                <img src="./ds-cor3.jpg" width="100PX">
+                <h3>Data Science</h3>
+                <p>Master data analysis, visualization, and machine learning with Python</p>
+                <p class="get">GET STARTED ></p>
+            </div>
+            <div id="cor1">
+                <img src="./cor1.jpeg" width="100PX">
+                <h3>HTML5 & CSS3 Modern Web Development Course</h3>
+                <p>Build modern, responsive websites with HTML5 and CSS3.</p>
+                <p class="get">GET STARTED ></p>
+            </div>
+            <div id="cor1">
+                <img src="./cor2.jpg" width="100PX">
+                <h3>JavaScript: The Complete Guide (Beginner + Advanced)</h3>
+                <p>A comprehensive JavaScript course covering everything from basic syntax to advanced topics</p>
+                <p class="get">GET STARTED ></p>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        // Select all elements with class "get"
+        document.querySelectorAll(".get").forEach(get => {
+            get.addEventListener("click", function () {
+
+                alert(`please login`);
+
+                // You can redirect the user to a course page or take other actions
+                // window.location.href = "course-details.html";  // Example redirect
+            });
+        });
+
+    </script>
+</body>
+
+</html>
