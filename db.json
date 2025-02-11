@@ -1,292 +1,39 @@
 {
   "courses": [
     {
-      "id": "1",
-      "title": "HTML5 & CSS3 Modern Web Development Course",
-      "category": "Web Development",
-      "pic": "https://miro.medium.com/v2/resize:fit:960/1*OlyP02fRFe8pEkJgb6vGTQ.png",
-      "coupon": "https://www.udemy.com/course/html5-css3-modern-web-development/?couponCode=MODERNHTML",
-      "price": "$34.99",
-      "description": "Build modern, responsive websites with HTML5 and CSS3.",
-      "language": "English",
-      "rating": 4.6,
-      "duration": 10
-    },
-     {
-      "id": "2",
-      "title": "CSS Flexbox & Grid Masterclass - Responsive Web Design",
-      "category": "Web Development",
-      "pic": "https://learnwebsite.design/media/uploads/2021/08/2j-Advanced-CSS-Thumbnail.jpg",
-      "coupon": "https://www.udemy.com/course/css-flexbox-grid/?couponCode=FLEXGRID20",
-      "price": "$39.99",
-      "description": "Master CSS Flexbox and Grid to create fully responsive layouts.",
-      "language": "English",
-      "rating": 4.8,
-      "duration": 8
-    }, {
-      "id": "3",
-      "title": "Advanced CSS and Sass - Take Your CSS to the Next Level",
-      "category": "Web Development",
-      "pic": "https://academieallemande.ma/storage/formationContinues/advanced-css-and-sass-flexbox-css-grid-animations-and-more-2023-04-09-6432a75218dba.png",
-      "coupon": "https://www.udemy.com/course/advanced-css-sass/?couponCode=ADVANCEDCSS",
-      "price": "$49.99",
-      "description": "Learn advanced CSS techniques and animations with Sass.",
-      "language": "English",
-      "rating": 4.7,
-      "duration": 12
+      "id": 1,
+      "pic": "ds-cor3.jpg",
+      "title": "Data Science Mastery"
     },
     {
-      "id": "4",
-      "title": "JavaScript for Beginners: Learn JavaScript from Scratch",
-      "category": "Programming",
-      "pic": "https://i.ytimg.com/vi/QduRqaVo7BQ/maxresdefault.jpg",
-      "coupon": "https://www.udemy.com/course/javascript-for-beginners/?couponCode=JSBEGINNER50",
-      "price": "$29.99",
-      "description": "Learn JavaScript from scratch with hands-on exercises and real-world examples.",
-      "language": "English",
-      "rating": 4.7,
-      "duration": "12 hours"
+      "id": 2,
+      "pic": "cor1.jpeg",
+      "title": "HTML5 & CSS3 Modern Web Development"
     },
     {
-      "id": "5",
-      "title": "Modern JavaScript (ES6+) From The Beginning",
-      "category": "Programming",
-      "pic": "https://coniolabs.com/wp-content/uploads/2023/03/es6.png",
-      "coupon": "https://www.udemy.com/course/modern-javascript-es6/?couponCode=MODERNJS40",
-      "price": "$39.99",
-      "description": "Master modern JavaScript (ES6+) features, including arrow functions, async/await, and modules.",
-      "language": "English",
-      "rating": 4.8,
-      "duration": "15 hours"
+      "id": 3,
+      "pic": "cor2.jpg",
+      "title": "JavaScript: The Complete Guide (Beginner + Advanced)"
     },
     {
-      "id": "6",
-      "title": "JavaScript: The Complete Guide (Beginner + Advanced)",
-      "category": "Programming",
-      "pic": "https://i.ytimg.com/vi/xc3a_CJhjCc/maxresdefault.jpg",
-      "coupon": "https://www.udemy.com/course/javascript-complete-guide/?couponCode=JSCOMPLETE30",
-      "price": "$49.99",
-      "description": "A comprehensive JavaScript course covering everything from basic syntax to advanced topics.",
-      "language": "English",
-      "rating": 4.9,
-      "duration": "20 hours"
+      "id": 4,
+      "pic": "https://c8.alamy.com/comp/2D9N00K/python-inscription-against-laptop-and-code-background-learn-python-programming-language-computer-courses-training-2D9N00K.jpg",
+      "title": "Python for Beginners to Advanced"
     },
     {
-      "id": "7",
-      "title": "Advanced JavaScript Concepts & Best Practices",
-      "category": "Programming",
-      "pic": "https://cache.careers360.mobi/media/private/courses/contents/356783/2022/2/25/9044_JavaScript%20-%20The%20Complete%20Guide%202022%20(Beginner%20+%20Advanced)%20(1).jpg",
-    "coupon": "https://www.udemy.com/course/advanced-javascript-concepts/?couponCode=ADVJS25",
-      "price": "$59.99",
-      "description": "Master closures, prototypal inheritance, async programming, and design patterns in JavaScript.",
-      "language": "English",
-      "rating": 4.9,
-      "duration": "25 hours"
-    },{
-      "id": "8",
-      "title": "Web Development Bootcamp",
-      "category": "Web Development",
-      "pic": "https://www.appstudio.ca/blog/wp-content/uploads/2020/01/Web-Development-and-Its-Principles.png",
-      "coupon": "WEBDEV25",
-      "price": 69.99,
-      "description": "Build modern websites with HTML, CSS, JavaScript, and React.",
-      "language": "English",
-      "rating": 4.7,
-      "duration": "25 hours"
-    },  {
-      "id": "9",
-      "title": "Java Programming for Beginners",
-      "category": "Programming",
-      "pic": "https://i.ytimg.com/vi/2L4ZhpNYgO4/maxresdefault.jpg",
-      "coupon": "https://www.udemy.com/course/java-programming-for-beginners/?couponCode=JAVABEGIN50",
-      "price": "$39.99",
-      "description": "Learn Java from scratch with hands-on coding exercises and build real-world applications.",
-      "language": "English",
-      "rating": 4.7,
-      "duration": "12 hours"
+      "id": 5,
+      "pic": "https://tse1.mm.bing.net/th?id=OIP.eUUpZVsMF8yAHi6uW44f5gHaD-&pid=Api&P=0&h=180",
+      "title": "Artificial Intelligence & Machine Learning"
     },
     {
-      "id": "10",
-      "title": "Object-Oriented Programming with Java",
-      "category": "Programming",
-      "pic": "https://cdn.educba.com/academy/wp-content/uploads/2019/02/Object-Oriented-Programming-in-Java-768x427.jpg",
-      "coupon": "https://www.udemy.com/course/object-oriented-programming-java/?couponCode=OOPJAVA30",
-      "price": "$49.99",
-      "description": "Master object-oriented programming (OOP) concepts with Java and build scalable applications.",
-      "language": "English",
-      "rating": 4.8,
-      "duration": "15 hours"
+      "id": 6,
+      "pic": "https://thereadersea.com/wp-content/uploads/2023/05/mern-stack.png",
+      "title": "Full-Stack Web Development with MERN"
     },
     {
-      "id": "11",
-      "title": "Java Data Structures & Algorithms",
-      "category": "Computer Science",
-      "pic": "https://perfectelearning.com/uploads/blogs/1701240611.jpg",
-      "coupon": "https://www.udemy.com/course/java-data-structures-algorithms/?couponCode=DSAJAVA40",
-      "price": "$59.99",
-      "description": "Learn essential data structures and algorithms in Java to ace coding interviews.",
-      "language": "English",
-      "rating": 4.9,
-      "duration": "20 hours"
-    },
-    {
-      "id": "12",
-      "title": "Spring Boot & Microservices with Java",
-      "category": "Web Development",
-      "pic": "https://miro.medium.com/v2/resize:fit:1358/1*zWjovaW-r-_Zjk6LEdjmSQ.png",
-      "coupon": "https://www.udemy.com/course/spring-boot-microservices-java/?couponCode=SPRINGJAVA50",
-      "price": "$69.99",
-      "description": "Build scalable microservices using Java, Spring Boot, and RESTful APIs.",
-      "language": "English",
-      "rating": 4.8,
-      "duration": "25 hours"
-    },
-    
-    {
-      "id": "13",
-      "title": "Build ML Projects on AWS Master SageMaker",
-      "category": "Data Science",
-      "pic": "https://img-c.udemycdn.com/course/750x422/5605600_4158_6.jpg",
-      "coupon": "https://www.udemy.com/course/mastering-aws-sage-maker-from-fundamentals-to-advance/?couponCode=FESTIVALYEAR",
-      "price": "$9.99",
-      "description": "Unlock the full potential of AWS SageMaker and become a machine learning expert.",
-      "language": "English",
-      "rating": 4.2,
-      "duration": 6
-    },
-    {
-      "id": "14",
-      "title": "Python & Django REST API Bootcamp – Build A Python Web API",
-      "category": "Development",
-      "pic": "https://i.ytimg.com/vi/-LVXBuYzi00/maxresdefault.jpg",
-      "coupon": "https://www.udemy.com/course/the-complete-python-django-rest-api-development-bootcamp/?couponCode=EE34AA06610150B2950B",
-      "price": "$84.99",
-      "description": "Do you want to build a complete Python RESTful API that is not only secure and stable but also deployed to a production-ready environment? If Yes! Then this is the course for you!",
-      "language": "English",
-      "rating": 4.6,
-      "duration": 15
-    },
-    
-    {
-      "id": "15",
-      "title": "[NEW] Python PCAP-31-03 Certification – Tests & Insights",
-      "category": "IT & Software",
-      "pic": "https://img-c.udemycdn.com/course/480x270/6280705_b1ff_3.jpg",
-      "coupon": "https://www.udemy.com/course/python-pcap-31-03-certification-practice-exam-preparation/?couponCode=AA12B1022FAFC980FE2D",
-      "price": "$19.99",
-      "description": "Prepare for your Python Certification PCAP-31-03 (2024) with 6 Practice Tests - Detailed Explanations.",
-      "language": "English",
-      "rating": 4.8,
-      "duration": 8
-    },
-    {
-      "id": "16",
-      "title": "PYTHON INTERVIEW PREPARATION",
-      "category": "IT & Software",
-      "pic": "https://img-c.udemycdn.com/course/480x270/6060673_b355.jpg",
-      "coupon": "https://www.udemy.com/course/python-interview-prep/?couponCode=7ECA8DA5B25ED958EE32",
-      "price": "$799.00",
-      "description": "Prepare for Python Interviews With A Wide Variety Of In-Depth Practice Questions.",
-      "language": "English",
-      "rating": 4.7,
-      "duration": 12
-    },
-    {
-      "id": "17",
-      "title": "Mastering Influencer Marketing: Strategies for Success",
-      "category": "Marketing",
-      "pic": "https://img-c.udemycdn.com/course/750x422/6414649_acc5_2.jpg",
-      "coupon": "https://www.udemy.com/course/mastering-influencer-marketing-strategies-for-success-m/?couponCode=312EC76246D510353A15",
-      "price": "$9.99",
-      "description": "In the rapidly evolving digital landscape, influencer marketing has become a powerful tool for brands looking to connect with their audience authentically and effectively.",
-      "language": "English",
-      "rating": 3.8,
-      "duration": 1
-    },
-    {
-      "id": "18",
-      "title": "PHP Laravel 2024: Build Amazing Restaurant Management System",
-      "category": "Development",
-      "pic": "https://img-c.udemycdn.com/course/750x422/5436836_736b_3.jpg",
-      "coupon": "https://www.udemy.com/course/php-laravel-2023-build-amazing-restaurant-management-system/?couponCode=LARAVELRESTAURANT56",
-      "price": "$9.99",
-      "description": "Learn PHP Laravel and build a complete restaurant management system from scratch.",
-      "language": "English",
-      "rating": 4.5,
-      "duration": 9
-    },
-    {
-      "id": "19",
-      "title": "Build ML Projects on AWS Master SageMaker",
-      "category": "Data Science",
-      "pic": "https://img-c.udemycdn.com/course/750x422/5605600_4158_6.jpg",
-      "coupon": "https://www.udemy.com/course/mastering-aws-sage-maker-from-fundamentals-to-advance/?couponCode=FESTIVALYEAR",
-      "price": "$9.99",
-      "description": "Unlock the full potential of AWS SageMaker and become a machine learning expert.",
-      "language": "English",
-      "rating": 4.2,
-      "duration": 6
-    },
-    {
-      "id": "20",
-      "title": "English Fluency Masterclass",
-      "category": "Language Learning",
-      "pic": "https://www.fita.in/wp-content/themes/zeft/images/english-fluency.jpg",
-      "coupon": "FLUENCY50",
-      "price": 49.99,
-      "description": "Improve your English speaking skills with real-life conversations and exercises.",
-      "language": "English",
-      "rating": 4.8,
-      "duration": "10 hours"
-    },
-    {
-      "id": "21",
-      "title": "Python for Beginners",
-      "category": "Programming",
-      "pic": "https://i.ytimg.com/vi/EZ55hO7QXjY/maxresdefault.jpg",
-      "coupon": "PYTHON30",
-      "price": 39.99,
-      "description": "Learn Python from scratch with hands-on coding exercises.",
-      "language": "English",
-      "rating": 4.7,
-      "duration": "15 hours"
-    },
-    {
-      "id": "22",
-      "title": "Digital Marketing Essentials",
-      "category": "Marketing",
-      "pic": "dhttps://www.phoenixmedia.co.th/wp-content/uploads/2021/03/digital-marketing.jpg",
-      "coupon": "MARKET20",
-      "price": 59.99,
-      "description": "Master SEO, social media, and content marketing strategies.",
-      "language": "English",
-      "rating": 4.6,
-      "duration": "12 hours"
-    },
-    {
-      "id": "23",
-      "title": "Graphic Design Fundamentals",
-      "category": "Design",
-      "pic": "https://i.ytimg.com/vi/Ruoq5HXTnkA/maxresdefault.jpg",
-      "coupon": "DESIGN40",
-      "price": 45.99,
-      "description": "Learn Adobe Photoshop, Illustrator, and essential design principles.",
-      "language": "English",
-      "rating": 4.9,
-      "duration": "8 hours"
-    },
-    {
-      "id": "24",
-      "title": "Data Science with Python",
-      "category": "Data Science",
-      "pic": "https://i.ytimg.com/vi/yh2pLdDb87c/maxresdefault.jpg",
-      "coupon": "DATA50",
-      "price": 79.99,
-      "description": "Master data analysis, visualization, and machine learning with Python.",
-      "language": "English",
-      "rating": 4.8,
-      "duration": "20 hours"
+      "id": 7,
+      "pic": "https://allegiance-educare.in/storage/uploads/aptitude%20skill_IK9sc.webp",
+      "title": "Aptitude & Logical Reasoning Mastery"
     }
-    
   ]
 }
